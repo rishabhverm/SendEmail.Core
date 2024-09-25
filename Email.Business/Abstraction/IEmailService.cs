@@ -9,6 +9,6 @@ namespace Email.Business.Abstraction
 {
     public interface IEmailService
     {
-        void SendEmail(EmailDto request ,Stream attachmentStream, string attachmentFileName);
+        void SendEmail(EmailDto request ,Stream attachmentStream, string attachmentFileName);// Interface
     }
 }
